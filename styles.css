@@ -6,7 +6,7 @@
    box-sizing: border-box;
 }
 nav{
-   display: flex;
+   display: in;
    top: 0;
    right: 0;
    left :0;
@@ -159,4 +159,15 @@ footer a{
 #about{
    margin: 100px;
    font-size:xx-large;
+}
+img{animation-name: Backandforth;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-fill-mode: both;}
+
+@keyframes Backandforth
+{0%{transform: translateX(0px);}
+50%{transform: translateX(700px);}
+100%{transform: translateX(0px)}
+   
 }
